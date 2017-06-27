@@ -39,7 +39,7 @@ echo -e "$Cyan \n Verifying installs$Color_Off"
 apt-get install apache2 libapache2-mod-php5 php5 mysql-server php-pear php5-mysql mysql-client mysql-server php5-mysql php5-gd -y
 
 ## TWEAKS and Settings
-# Permissions
+# Create symlink to work directory
 echo -e "$Cyan \n Create directory on users and symlink user-var $Color_Off"
 mkdir /var/www/carbonbee
 mkdir /home/michel/carbonbee/www
