@@ -5,5 +5,5 @@ Script based to AamnahAkram from http://aamnah.com
 
 I add symlink to my directories
 
-It is not optimised but work perfect for me
+It is not optimised but work perfect for me with Drupal 7 and drush
 
