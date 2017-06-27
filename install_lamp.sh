@@ -22,7 +22,7 @@ Cyan='\033[0;36m'         # Cyan
 echo -e "$Cyan \n Updating System.. $Color_Off"
 apt-get update -y && apt-get upgrade -y
 
-## Install AMP.
+## Install AMP
 echo -e "$Cyan \n Installing Apache2 $Color_Off"
 apt-get install apache2 apache2-doc apache2-mpm-prefork apache2-utils libexpat1 ssl-cert -y
 
